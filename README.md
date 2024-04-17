@@ -40,6 +40,10 @@ You can run the project using this command:
 ```bash
 python maktab.py
 ```
+if you don't have the download option in the choosen course then run this command instead:
+```bash
+python maktab_noDownloadOption.py
+```
 
 ## Contributing
 
