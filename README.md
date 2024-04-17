@@ -23,13 +23,13 @@ python-dotenv,
 requests
 will be installed.
 
-Create a [.env](https://pip.pypa.io/en/stable/) file and set these values:
+Edit the [.env](https://pip.pypa.io/en/stable/) file and set these values:
 
 ```text
-TESSERA=[Your account email or phone number (username for login)]
-PASSWORD=[Your account password]
-URL=[URL to the desired course]
-COURSE_NAME=[Your Course name]
+TESSERA=Your account email or phone number (username for login)
+PASSWORD=Your account password
+URL=URL to the desired course
+COURSE_NAME=Your Course name
 # course name will used to name a folder to save the videos in that folder
 
 ```
@@ -39,6 +39,10 @@ You can run the project using this command:
 
 ```bash
 python maktab.py
+```
+if you don't have the download option in the choosen course then run this command instead:
+```bash
+python maktab_noDownloadOption.py
 ```
 
 ## Contributing
